@@ -1,0 +1,60 @@
+
+
+2017.9.12			修改FreeRTOSConfig.h
+
+2017.9.14			添加bsp_can.c
+
+2017.10.15			二值信号量模型用法
+
+
+1.创建二值信号量
+void StartTask(void *pvParameters)
+{
+	BinarySemaphore_TaskRemote=xSemaphoreCreateBinary();		//创建二值信号量
+	
+	...............
+	...
+	.
+}
+
+2.任务中调用二值信号量
+
+if(BinarySemaphore_TaskRemote!=NULL)
+{
+	err=xSemaphoreTake(BinarySemaphore_TaskRemote,portMAX_DELAY);				//获取信号量
+	if(err==pdTRUE)																											//获取信号量成功
+	{
+		.................
+		...
+		.
+		
+	}
+}
+
+不进行判断也可以，会堵塞在xSemaphoreTake(BinarySemaphore_TaskRemote,portMAX_DELAY);
+判断属于安全版本
+
+
+3.中断中给出二值信号量
+IT_handler(){
+	BaseType_t xHigherPriorityTaskWoken;
+
+	xSemaphoreGiveFromISR(BinarySemaphore_TaskRemote,&xHigherPriorityTaskWoken);	//释放二值信号量
+	portYIELD_FROM_ISR(xHigherPriorityTaskWoken);//如果需要的话进行一次任务切换
+}
+
+2017.10.16			任务通知模型
+
+
+
+工程模型		Task---------任务层
+				Driver-------驱动层
+				BSP----------外设层
+
+2017.10.19			内存检测任务，watchdog
+
+
+
+
+
+

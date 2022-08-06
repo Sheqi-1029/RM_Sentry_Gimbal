@@ -1,0 +1,57 @@
+
+=============================================================================
+                           SPL2LL-Converter V1.0.1                           
+                    Copyright(c) 2017 STMicroelectronics                     
+=============================================================================
+
+Family                : from STM32F4 to STM32F4
+Source directory      : \TASK
+Destination directory : \TASK_LL
+
+ 
+Updating user files ...
+     Parsing "TASKCANSEND/task_cansend.c"
+     => NO CHANGE
+     Parsing "TASKCANSEND/task_cansend.h"
+     => NO CHANGE
+     Parsing "TASKCHASSIS/task_chassis.c"
+     => NO CHANGE
+     Parsing "TASKCHASSIS/task_chassis.h"
+     => NO CHANGE
+     Parsing "TASKCHECKREMAINMEMORY/task_check_remainmemory.c"
+     => NO CHANGE
+     Parsing "TASKCREATED/task_create.c"
+     => NO CHANGE
+     Parsing "TASKCREATED/task_create.h"
+     => NO CHANGE
+     Parsing "TASKFEEDMOTOR/task_feedmotor.c"
+     => NO CHANGE
+     Parsing "TASKFEEDMOTOR/task_feedmotor.h"
+     => NO CHANGE
+     Parsing "TASKGIMBAL/task_gimbal.c"
+     => NO CHANGE
+     Parsing "TASKGIMBAL/task_gimbal.h"
+     => NO CHANGE
+     Parsing "TASKIMU/task_imu.c"
+     => NO CHANGE
+     Parsing "TASKIMU/task_imu.h"
+     => NO CHANGE
+     Parsing "TASKLOSTCOUNTER/task_lostcounter.c"
+     => NO CHANGE
+     Parsing "TASKLOSTCOUNTER/task_lostcounter.h"
+     => NO CHANGE
+     Parsing "TASKPORT/task_port.c"
+     => UPDATED
+     Parsing "TASKREMOTE/task_remote.c"
+     => NO CHANGE
+     Parsing "TASKREMOTE/task_remote.h"
+     => NO CHANGE
+
+
+Statistics : All Files = 18 | Updated Files = 1 | Errors = 0 | Warnings = 0 | Migrated in 82 sec
+
+
+
+              ===============>>> Successful migration <<<===============
+
+

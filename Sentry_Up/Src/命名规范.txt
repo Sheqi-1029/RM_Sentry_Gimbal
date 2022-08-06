@@ -1,0 +1,21 @@
+#########################################################
+	Title:		RoboMaster战车程序命名规范
+	Version:	1.0.0
+	Date:		2017.9.14
+	Author:		LD
+	ChipType:	STM32F405RGT6
+	OS:			FreeRTOS
+#########################################################
+
+	.c文件：			全部小写
+	example：			bsp_usart.c
+
+
+	变量名，函数名：	驼峰法
+	example:			UsartInit()
+	
+	
+	宏定义：			全大写
+	example:			#define START_TASK_PRIO		1
+	
+	底层库配置名称：	与STM32库一致

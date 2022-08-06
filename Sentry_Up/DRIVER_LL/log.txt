@@ -1,0 +1,53 @@
+
+=============================================================================
+                           SPL2LL-Converter V1.0.1                           
+                    Copyright(c) 2017 STMicroelectronics                     
+=============================================================================
+
+Family                : from STM32F4 to STM32F4
+Source directory      : \DRIVER
+Destination directory : \DRIVER_LL
+
+ 
+Updating user files ...
+     Parsing "DRIVER_CHASSIS/driver_chassis.c"
+     => NO CHANGE
+     Parsing "DRIVER_CHASSIS/driver_chassis.h"
+     => NO CHANGE
+     Parsing "DRIVER_FEEDMOTOR/driver_feedmotor.c"
+     => NO CHANGE
+     Parsing "DRIVER_FEEDMOTOR/driver_feedmotor.h"
+     => NO CHANGE
+     Parsing "DRIVER_FRICTION/driver_friction.c"
+     => UPDATED
+     Parsing "DRIVER_FRICTION/driver_friction.h"
+     => NO CHANGE
+     Parsing "DRIVER_GIMBAL/driver_gimbal.c"
+     => NO CHANGE
+     Parsing "DRIVER_GIMBAL/driver_gimbal.h"
+     => NO CHANGE
+     Parsing "DRIVER_LASER/driver_laser.c"
+     => NO CHANGE
+     Parsing "DRIVER_LASER/driver_laser.h"
+     => NO CHANGE
+     Parsing "DRIVER_MAGAZINE/driver_magazine.c"
+     => NO CHANGE
+     Parsing "DRIVER_MAGAZINE/driver_magazine.h"
+     => NO CHANGE
+     Parsing "DRIVER_MPU9250/driver_mpu9250.c"
+     => NO CHANGE
+     Parsing "DRIVER_MPU9250/driver_mpu9250.h"
+     => NO CHANGE
+     Parsing "DRIVER_REMOTE/driver_remote.c"
+     => UPDATED
+     Parsing "DRIVER_REMOTE/driver_remote.h"
+     => NO CHANGE
+
+
+Statistics : All Files = 16 | Updated Files = 2 | Errors = 0 | Warnings = 0 | Migrated in 61 sec
+
+
+
+              ===============>>> Successful migration <<<===============
+
+

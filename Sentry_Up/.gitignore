@@ -1,0 +1,8 @@
+/Drivers
+/MDK-ARM
+/Middlewares
+*.mxproject
+*.scratch
+*.bat
+*.ioc
+!keilkilll.bat
